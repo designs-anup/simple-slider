@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sliderMain{
+    width: 70%;
+    height: 400px;
+    box-shadow: 0 0 3px #000;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    transition: 1s;
+}
+.nav{
+    text-align: center;
+}
